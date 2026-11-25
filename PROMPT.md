@@ -1,0 +1,5 @@
+# PROMPT
+
+Spotlight @crisxai5, an AI & crypto expert on X, with an X post that carries its own picture. Make one original, phone-readable spotlight graphic for @crisxai5 as an AI & crypto expert — bold, high contrast, readable at small size, no watermark, no text errors — using the image-generation tool in this session, and save it as spotlight.png. Draft the exact post text to be posted by the user: punchy and specific about AI + crypto expertise, under 280 characters, carrying `@crisxai5` as a whole word, one fetched make.fun play code, the link https://x.com/crisxai5, and 3–5 relevant hashtags (#AI #Crypto #AIAgents #Web3).
+
+Then write `main.ts` (Node 22, standard library only) that copies POST.json from the repository root to `/output/POST.json` and validates the copy parses as a JSON object with a string `url`, failing loudly otherwise. Write POST.json with the placeholder URL "https://x.com/riyan3w/status/TO_BE_POSTED" and clearly mark in SPEC.md that the URL must be replaced with the real post URL after the user posts it — never invent a post ID. Do not attempt to log in to any X account.
